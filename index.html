@@ -53,19 +53,21 @@
    </header>
 
    <main>
-     <section style="padding-top: 9vh;">
-       <div class="uk-cover-container uk-height-viewport">
-         <video uk-video="autoplay: inview" src="assets/gallery/intro.mp4" width="1920" height="1080"
-           uk-cover></video>
-       </div>
-     </section>
      <section>
        <div class="uk-cover-container">
-         <canvas width="400" height="700"></canvas>
-         <img src="assets/gallery/01.jpeg" alt="" uk-cover>
-       </div>
+         <div uk-height-viewport="min-height: 600" class="uk-height-extra-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="assets/gallery/01.jpeg" uk-img>
+           <img class="uk-position-top-center" src="assets/logo.svg" style="width: 30vh; padding-top: 15vh;"></img>
+           <div class="uk-flex uk-flex-center" style="padding-top:86vh;">
+           <img class="" src="assets/apple-store-badge.svg" style="width: 13vh; padding:4px;"></img>
+           <img class="" src="assets/google-play-badge.svg" style="width: 15vh; padding:4px;"></img>
+           </div>
+</div>
+</div>
      </section>
-
+<section class="pt-5">
+   <h1 class="uk-text-center" style="color:#33209F">Planty reasons why!</h1>
+  <video class="uk-width-3-4 uk-align-center"src="assets/gallery/gameplay.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+</section>
      <section class="pt-5">
        <div class="uk-align-center">
          <h1 class="uk-text-center">Click Here!</h1>
