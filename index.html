@@ -14,7 +14,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="robots" content="all">
    <!-- favicon -->
-   <link rel="icon" sizes="192x192" href="assets/favicon.png">
+   <link rel="icon" sizes="180x180" href="assets/favicon.png">
    <!-- bootstrap -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
@@ -24,12 +24,10 @@
  </head>
 
  <body>
->
-
    <header>
      <!-- Image and text -->
      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: rgb(126,102,255); background: linear-gradient(180deg, rgba(126,102,255,1) 0%, rgba(51,32,159,1) 100%);">
-       <a class="navbar-brand pl-5" href="index.html"> <img src="assets/logow.svg" width="110" height="60"></a>
+       <a class="navbar-brand pl-5" href="index.html"> <img src="assets/logow.svg" width="100" height="50"></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
@@ -52,18 +50,25 @@
      </nav>
 
    </header>
-
+<br>
    <main>
      <section>
-       <div class="uk-cover-container uk-height-viewport" style="margin-top:6vh;">
+       <div class="uk-cover-container uk-height-viewport">
          <video width="1920" class="uk-height-extra-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" autoplay loop muted preload playsinline uk-cover>
            <source src="assets/gallery/gameplay.mp4" type="video/mp4">
        </div>
        <img class="uk-position-top-center" src="assets/logo.svg" style="width: 30vh; padding-top: 15vh;"></img>
         <h1 class="uk-position-bottom-center uk-text-center" style="padding-bottom:10vh; color:white; text-shadow: 1px 1px 4px #000000;">A new world, <br> just outside your window </h1>
         <div class="uk-position-bottom-center uk-flex uk-flex-center pb-4">
-           <img src="assets/trailer.svg" style="width: 22vh;"></img>
+          <a href="#modal-media-vimeo" uk-toggle><img src="assets/trailer.svg" style="width: 22vh;"></img></a>
            <img src="assets/download.svg" style="width: 22vh;"></img>
+<br>
+<div id="modal-media-vimeo" class="uk-flex-top" uk-modal>
+    <div style="margin-top:10vh;" class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+        <button class="uk-modal-close-outside" type="button" uk-close></button>
+        <iframe src="https://player.vimeo.com/video/1084537" width="1000" height="562.5" frameborder="0" uk-video uk-responsive></iframe>
+    </div>
+</div>
 
 <div>
 
@@ -172,11 +177,7 @@ background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);"> -->
          </div>
          <div class="uk-width-1-4@m pt-4 pb-3">
            <h4>Download</h4>
-           <p>
-             Android<br>
-             iOS <br>
-
-           </p>
+           <img class="uk-align-left" src="assets/stores.svg" width="240vh"></img>
          </div>
        </div>
      </div>
