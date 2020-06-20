@@ -36,6 +36,10 @@ h1{
   font-size: 2em;
   font-family: ANR-demi;
 }
+h2{
+  font-size: 1.5em;
+  font-family: ANR-demi;
+}
 h4{
   font-family: ANR-bold;
   font-size: 1em;
@@ -48,7 +52,19 @@ h4{
 .nav-item{
   color: white;
 }
-
+.uk-subnav-pill>.uk-active>a {
+    background-color: #614BDA ;
+    color: #fff;
+    border-radius: 2.5vh;
+}
+.uk-subnav-pill>.uk-active>a {
+    color: #fff;
+    background-color: #614BDA;
+        border-radius: 2.5vh;
+}
+.uk-subnav>*>:first-child {
+          border-radius: 2vh;
+}
 /* iphone */
 @media only screen and (max-width: 414px) {}
 
