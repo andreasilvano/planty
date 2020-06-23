@@ -27,7 +27,7 @@
    <header>
      <!-- Image and text -->
      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: #614BDA;">
-       <a class="navbar-brand pl-5" href="index.html"> <img src="assets/logo.svg" width="120" height="70"></a>
+       <a class="navbar-brand pl-5" href="index.html"> <img src="assets/logow.svg" width="100" height="50"></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
@@ -55,95 +55,108 @@
 
      <section id="01">
        <div class="uk-cover-container uk-height-viewport">
-         <video width="1920" class="uk-height-extra-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" autoplay loop muted preload playsinline uk-cover>
+         <img class="uk-position-z-index uk-position-bottom"src="assets/divider01.svg">
+         <video width="1920" class="uk-height-extra-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light pb-2" autoplay loop muted preload playsinline uk-cover>
            <source src="assets/gallery/gameplay.mp4" type="video/mp4">
+
        </div>
-       <!-- <img class="uk-position-top-center" src="assets/logo.svg" style="width: 30vh; padding-top: 15vh;"></img> -->
-       <div class="uk-flex uk-flex-center">
-         <h1 class="uk-position-top-center uk-text-center pr-2 pl-2" style="padding-top:20vh; color:white; text-shadow: 1px 1px 4px #000000; font-size: 7vh;">A new world,<br>just outside your window </h1>
+       <div class="uk-grid-small uk-child-width-1-1@s uk-text-center uk-flex uk-flex-center uk-position-center pl-3" uk-grid style="padding-bottom: 20vh;">
+         <div class="uk-child-width-1-1@s">
+       <img class="pr-2 pl-2" src="assets/logo.svg" style="width: 50vh;"></img>
+        </div>
+       <div class="uk-child-width-1-1@s">
+         <h1 class="uk-text-center pr-2 pl-2 pb-5" style="color:white; text-shadow: 1px 1px 4px #000000; font-size: 5vh;">Your SpectaculAR<br>neighborhood.</h1>
        </div>
-       <div class="uk-position-bottom-center uk-flex uk-flex-center pb-4">
+       <div class="uk-child-width-1-1@s">
+         <div class="uk-flex uk-flex-center pr-2 pl-2">
          <a href="#modal-media-vimeo" uk-toggle><img src="assets/trailer.svg" style="width: 22vh;"></img></a>
          <a href="#02"><img src="assets/download.svg" style="width: 22vh;"></img></a>
+                </div>
        </div>
-       <div id="modal-media-vimeo" class="uk-flex-top" uk-modal>
+
+       </div>
+
+       <div id="modal-media-vimeo" class="uk-flex-top uk-position-z-index" uk-modal>
          <div style="margin-top:10vh;" class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
            <button class="uk-modal-close-outside" type="button" uk-close></button>
            <iframe src="https://player.vimeo.com/video/1084537" width="1000" height="562.5" frameborder="0" uk-video uk-responsive></iframe>
          </div>
        </div>
      </section>
-       <section style="background-color: #47CFFD;">
-         <div class="uk-text-center pt-5 " uk-grid>
-           <div class="uk-width-expand@l uk-flex uk-flex-left" style="flex-direction: column;">
-             <img src="assets/home01.png" width="600vh"></img>
+     <div id="02">
+       <section style="background-color: #ffffff;">
+         <div class="uk-text-center uk-grid-small" uk-grid>
+           <div class="uk-width-1-3@s uk-flex uk-flex-left uk-position-middle pb-5" style="flex-direction: column;">
+             <img src="assets/home01.png" width="1000vh"></img>
            </div>
-           <div class="uk-width-1-3@l uk-flex uk-flex-middle mr-5 ml-5">
+           <div class="uk-width-expand@s uk-flex uk-flex-middle uk-flex-right mr-5 ml-5">
              <div>
-               <h1 class="uk-text-right" style="color:white;">Turn your neighborhood <br>into a game field.</h1>
-               <p class="uk-text-right" style="color:white;">AR lets you access a new world just outside your window. Enjoy tranforming the city in a greener place.</p>
-               <img class="uk-align-right" src="assets/stores.svg" width="270vh"></img>
+               <h1 class="uk-text-right pl-5" style="color:#33209F;">Planty reasons to download.</h1>
+               <p class="uk-text-right pl-5" style="color:#33209F;">Discover the ultimate AR game. The best opportunity to meet people and become part of your local community simply by playing. Fight together and make the world a better place. </p>
+               <img class="uk-align-right" src="assets/storeso.svg" width="270vh"></img>
              </div>
            </div>
          </div>
        </section>
+            </div>
 
-       <section class="pt-5 mr-5 ml-5">
-
-         <div class="uk-text-center" uk-grid>
-           <div class="uk-width-1-3@l uk-flex uk-flex-middle">
+       <section style="background: rgb(71,207,253);
+background: linear-gradient(180deg, rgba(71,207,253,1) 0%, rgba(255,255,255,1) 140%);">
+         <div class="uk-cover-container">
+      <img class="uk-position-z-index uk-position-top uk-background-cover"src="assets/clouds.svg">
+         <div class="uk-text-center uk-grid-small" uk-grid style="padding-top: 18vh;">
+           <div class="uk-width-1-2@l uk-flex uk-flex-middle">
              <div>
-               <h1 class="uk-text-left" style="color:#333333;">Join a team and fight the Pollutors!</h1>
-               <p class="uk-text-left" style="color:#333333;">Nearby friends can help you destroying the evil polluting monsters. Fight together and make the world a better place.</p>
+               <h1 class="uk-text-left pl-5 pr-5" style="color:white; text-shadow: 1px 1px 4px #000000;">Spend more time outside.</h1>
+               <p class="uk-text-left pl-5 pr-5" style="color:white; text-shadow: 1px 1px 4px #000000;">AR lets you access a new world just outside your window. <br>By playing outside you have a chance to say hi to your neighbor</p>
              </div>
            </div>
-           <div class="uk-width-expand@l uk-align-right">
-             <img src="assets/home02.png" width="500vh"></img>
+           <div class="uk-width-1-1@l">
+             <img src="assets/palazzi.png" width="1500vh"></img>
+
            </div>
 
+         </div>
+        <img class="uk-position-z-index uk-position-bottom" src="assets/dividerg_up.svg">
          </div>
        </section>
 
 
-       <section class="pt-5">
-         <div class="uk-cover-container uk-height-viewport">
+       <section style="background: rgb(255,238,58);
+background: linear-gradient(180deg, rgba(255,238,58,1) 0%, rgba(255,199,0,1) 100%);">
+         <div class="uk-cover-container">
          <div class="uk-text-center uk-flex uk-flex-middle" uk-grid>
-           <div class="uk-width-expand@m uk-flex uk-flex-left uk-flex-middle uk-position-z-index pt-5 pr-5">
-             <img src="assets/home03.png" width="650vh" class="pt-5"></img>
+           <div class="uk-width-expand@s uk-flex uk-flex-left uk-flex-bottom uk-position-z-index pt-5 pr-5">
+             <img src="assets/persone.png" width="650vh"></img>
            </div>
-           <div class="uk-width-1-3@m uk-flex uk-flex-middle mr-5 uk-position-z-index pt-5">
-             <div>
-               <h1 class="uk-text-right" style="color:#ffffff; text-shadow: 1px 1px 4px #000000;">Spend more time outside to gain Vitamines</h1>
-               <p class="uk-text-right" style="color:#ffffff; text-shadow: 1px 1px 4px #000000;">Every time you play outside you have the occasion to meet people IRL and get some point in order to customize your gaming experience.</p>
+           <div class="uk-width-1-3@s mr-5 uk-position-z-index pt-5">
+               <h1 class="uk-text-right pl-5" style="color:#ffffff; text-shadow: 1px 1px 4px #000000;">Union is strength!</h1>
+               <p class="uk-text-right pb-5 pl-5" style="color:#ffffff; text-shadow: 1px 1px 4px #000000;">Join forces with your neighbors to fight the evil Pollutors. Unlock new gaming experiences by playing together. Create a neighborhood team and have fun together! </p>
              </div>
            </div>
          </div>
-         <img src="assets/bg_home03.png" class="uk-cover"></img>
          </div>
        </section>
-       <section class="pt-5 mr-5 ml-5">
+       <section>
+         <div class="uk-cover-container">
+           <img class="uk-position-z-index uk-position-top" src="assets/dividerg_down.svg">
+         <img class="uk-position-z-index uk-position-bottom" src="assets/prato.svg">
          <div class="uk-text-center" uk-grid>
-           <div class="uk-width-1-3@m uk-flex uk-flex-middle">
+           <div class="uk-width-1-3@s uk-flex uk-flex-middle">
              <div>
-               <h1 class="uk-text-left" style="color:#333333;">Surprise your neighbors with an unexpected gift.</h1>
-               <p class="uk-text-left" style="color:#333333;">Visit our shop and buy a real plant for your friends or for yourself. Decorate your balcony with beautiful pots to make your block the cutest.</p>
+               <h1 class="uk-text-left pl-5 pr-5 pt-5" style="color:#333333;">Surprise your neighbors with an unexpected gift.</h1>
+               <p class="uk-text-left pl-5 pr-5" style="color:#333333;">Visit our shop and buy a real plant for your friends or for yourself. Decorate your balcony with beautiful pots to make your block the cutest.
+               <a class="uk-flex uk-flex-left pt-3" href="shop.html"><img src="assets/shop_button.svg" style="width: 18vh;"></img></a></p>
              </div>
            </div>
-           <div class="uk-width-expand@m uk-align-right">
-             <img src="assets/home04.png" width="400vh"></img>
+           <div class="uk-width-expand@s uk-flex uk-flex-right">
+             <img src="assets/portico.png" width="550vh"></img>
            </div>
-
-         <!-- </div>
-         <div class="uk-align-center">
-           <h1 class="uk-text-center">Click Here!</h1>
-           <button type="button" class="btn btn-lg uk-align-center" style="border-radius:25px; border-color: none !important; background-color:#6751E2; color: white">Visit our FAQs</button>
-         </div>
-         <br><br><br>
-       </section>
-     </div> -->
+                    </div>
+                  </div>
 
    </main>
-   <footer style="background: #55CB5C;">
+   <footer style="background: #7CD444;">
      <div class="container-fluid mr-3 ml-5">
        <div class="row">
          <div class="uk-width-1-4@m pt-4 pb-3">
@@ -169,7 +182,7 @@
          </div>
          <div class="uk-width-1-4@m pt-4 pb-3">
            <h4>Download</h4>
-           <img class="uk-align-left" src="assets/stores.svg" width="240vh"></img>
+           <img class="uk-align-left" src="assets/storesv.svg" width="120vh"></img>
          </div>
        </div>
      </div>
