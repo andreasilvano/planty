@@ -49,6 +49,16 @@ h4{
   font-family: ANR-reg;
 }
 
+.reg{
+  font-family: ANR-reg;
+}
+.demi {
+  font-family: ANR-demi;
+}
+.bold {
+  font-family: ANR-bold;
+}
+
 .nav-item{
   color: white;
 }
@@ -68,6 +78,31 @@ h4{
 
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,0);}
+.fioribg
+        {
+          position: relative;
+          top: 0vh;
+          left: 0vh;
+        }
+.fiore
+        {
+          position: absolute;
+          top: 0vh;
+          left: 0vh;
+        }
+
+.personebg
+        {
+          position: relative;
+          top: 0vh;
+          left: 0vh;
+                }
+.persona
+        {
+           position: absolute;
+           top: 0vh;
+           left: 0vh;
+                }
 
 /* iphone */
 @media only screen and (max-width: 414px) {}
