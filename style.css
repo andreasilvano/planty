@@ -94,10 +94,26 @@ h4 {
   border-color: rgba(0, 0, 0, 0);
 }
 
+.palazzi {
+  position: relative;
+  left: -30vh;
+  bottom: -8vh;
+  overflow: hidden;
+  width:230vh;
+}
+
+.persone {
+  position: absolute;
+  left: -30vh;
+  bottom: -8vh;
+  overflow: hidden;
+  width:230vh;
+}
 .fioribg {
   position: relative;
   top: 0vh;
   left: 0vh;
+
 }
 
 .fiore {
