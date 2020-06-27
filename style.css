@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 5vh;
   font-family: ANR-demi;
 }
 
@@ -46,8 +46,12 @@ h2 {
 
 h4 {
   font-family: ANR-bold;
-  font-size: 1em;
+  font-size: 1.1em;
   color: white;
+}
+p{
+  font-size: 1.15em;
+  font-family: ANR-reg;
 }
 
 .responsive {
@@ -56,6 +60,10 @@ h4 {
 
 .p {
   font-family: ANR-reg;
+}
+
+.typography {
+  font-size: 1em !important;
 }
 
 .reg {
@@ -93,18 +101,20 @@ h4 {
 .navbar-light .navbar-toggler {
   border-color: rgba(0, 0, 0, 0);
 }
-
+.uk-cover-container{
+  overflow: visible;
+}
 .palazzi {
   position: relative;
-  left: 0;
-  bottom: -8vh;
+  left:-3vh;
+  bottom: 0vh;
   overflow: hidden;
   width:230vh;
 }
 
 .persone {
   position: absolute;
-  left: 0;
+  left: -3vh;
   bottom: -8vh;
   overflow: hidden;
   width:230vh;
@@ -130,14 +140,13 @@ h4 {
 
 .persona {
   position: absolute;
-  top: 0vh;
-  left: 5vh;
+  bottom: -10px;
+  left: 50px;
 }
 
 .robot {
   position: absolute;
-  top: 0vh;
-  left: 0vh;
+  left: -5vh;
 }
 
 .telefono {
