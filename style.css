@@ -218,8 +218,19 @@ p{
   background-color:#7CD444;
   color:white;
 }
+.video{
+  height:50vh;
+}
 /* iphone */
-@media only screen and (max-width: 414px) {}
+@media only screen and (max-width: 414px) {
+  .video{
+    height:100%;
+  }
+}
 
 /* ipad */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .video{
+    height:100%;
+  }
+}
