@@ -40,17 +40,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-family: ANR-demi;
 }
 
 h4 {
   font-family: ANR-bold;
-  font-size: 1.35em;
+  font-size: 1.2em;
   color: white;
 }
 p{
-  font-size: 1.35em;
+  font-size: 1.2em;
   font-family: ANR-reg;
 }
 
@@ -215,7 +215,7 @@ p{
   height:50vh;
 }
 .small{
-  font-size: .75em;
+  font-size: .85em;
 }
 .medium{
   font-size: 1em;
