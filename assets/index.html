@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+
+ <html lang=ita>
+
+ <head>
+
+   <meta charset="UTF-8">
+   <title>Planty</title>
+   <!-- metatag -->
+   <meta name="description" content="Planty">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+   <!-- responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="robots" content="all">
+   <!-- favicon -->
+   <link rel="icon" sizes="180x180" href="assets/favicon.png">
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+   <!-- style and js -->
+   <link rel="stylesheet" type="text/css" href="./style.css">
+
+ </head>
+
+ <body>
+   <header>
+     <!-- Image and text -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: #614BDA;">
+       <a class="navbar-brand pl-5" href="index.html"> <img src="assets/logow.svg" width="100" height="50"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+         <ul class="navbar-nav pr-5 demi">
+           <li class="nav-item">
+             <a href="community.html" style="text-decoration:none; color:white; ">Community</a>
+           </li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <li class="nav-item">
+             <a href="shop.html" style="text-decoration:none; color:white;">Shop</a>
+           </li>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <li class="nav-item">
+             <a href="about.html" style="text-decoration:none; color:white;">About</a>
+           </li>
+         </ul>
+
+       </div>
+     </nav>
+
+   </header>
+   <br>
+   <main style="margin-bottom:-4px;">
+
+     <section style="margin-bottom:-4px;">
+       <div class="uk-cover-container uk-height-viewport responsive">
+         <video class="uk-height-extra-large uk-flex uk-flex-center uk-flex-middle uk-background-cover" autoplay loop muted preload playsinline uk-cover>
+           <source src="assets/home/test.mp4" type="video/mp4" class="responsive">
+       </div>
+       <div class="uk-grid-small uk-child-width-1-1@s uk-text-center uk-flex uk-flex-center uk-position-center pl-3" uk-grid style="padding-bottom: 20vh;">
+         <div class="uk-child-width-1-1@s">
+           <img class="pr-2 pl-2 pt-5" src="assets/home/logo.svg" style="width: 50vh;"></img>
+         </div>
+         <div class="uk-child-width-1-1@s">
+           <h1 class="uk-text-center pr-2 pl-2 pb-5 white text-shadow" style="font-size: 5vh;">Your SpectaculAR<br>neighborhood.</h1>
+         </div>
+         <div class="uk-child-width-1-1@s">
+           <div class="uk-flex uk-flex-center pr-2 pl-2">
+             <a href="#modal-media-vimeo" uk-toggle><img src="assets/home/trailer.svg" style="width: 22vh;"></img></a>
+             <a href="#download" uk-scroll><img src="assets/home/download.svg" style="width: 22vh;"></img></a>
+           </div>
+         </div>
+
+       </div>
+
+       <div id="modal-media-vimeo" class="uk-flex-top uk-position-z-index" uk-modal>
+         <div style="margin-top:10vh;" class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+           <button class="uk-modal-close-outside" type="button" uk-close></button>
+           <iframe src="https://player.vimeo.com/video/1084537" width="1000" height="562.5" frameborder="0" uk-video uk-responsive></iframe>
+         </div>
+       </div>
+     </section>
+
+     <section id="download" class="pt-5 white">
+       <div class="uk-text-center uk-grid-small" uk-grid>
+         <div class="uk-width-1-2@s uk-flex uk-flex-left uk-position-middle pb-5" style="flex-direction: column;">
+           <div style="position: relative; left: 0; top: 0; margin-left:0; align-item:left;">
+             <img src="assets/home/telefono.gif" class="telefono uk-position-z-index mt-4" style="width:90vh;">
+           </div>
+         </div>
+         <div class="uk-width-expand@s uk-flex uk-flex-middle uk-flex-left mr-5 ml-5">
+           <div>
+             <h1 class="uk-text-left violet">Planty reasons to download.</h1>
+             <p class="uk-text-left violet">Discover the ultimate AR game. The best opportunity to <span class="bold">meet people</span> and become part of your <span class="bold">local community</span> simply by playing. Fight together and make the
+               world a better place. </p>
+             <img class="uk-align-left" src="assets/home/storeso.svg" width="270vh"></img>
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+     <section class="blue-gradient">
+       <div class="uk-cover-container">
+         <img class="uk-position-z-index uk-position-top responsive" src="assets/home/clouds.svg" style="margin-top:-4px;">
+         <div class="uk-text-center uk-grid-small" uk-grid style="padding-top: 18vh;">
+           <div class="uk-width-1-1@l uk-flex uk-flex-middle uk-flex-center">
+             <div>
+               <h1 class="uk-text-center pl-5 pr-5 pt-5 violet">Spend more time outside.</h1>
+               <p class="uk-text-center pl-5 pr-5 violet">AR lets you <span class="bold">access a new world</span> just outside your window.<br> By playing outside you have a chance to <span class="bold">salute your neighbors.</span></p>
+             </div>
+           </div>
+           <div class="uk-width-1-1@s uk-flex uk-flex-center" style="z-index:0;flex-direction: row; align-items: flex-start; display:flex;">
+             <picture>
+               <source srcset="assets/home/palazzi.png" style="margin-top:10vh;" media="(min-width: 700px)">
+               <img src="assets/home/building2.png" alt="MDN">
+             </picture>
+             <img src="assets/home/robot.gif" class="uk-position-z-index uk-position-bottom-center robot">
+
+           </div>
+           <div>
+             <img class="uk-position-z-index uk-position-bottom" src="assets/home/dividerg_up.svg">
+           </div>
+         </div>
+     </section>
+
+
+     <section class="yellow-grandient">
+       <div class="uk-cover-container">
+         <div class="uk-text-center uk-flex uk-flex-middle" uk-grid>
+           <div class="uk-width-expand@s uk-flex uk-flex-left uk-flex-bottom uk-position-z-index pt-5 pr-5">
+             <div class="pl-5" style="position: relative; left: 0; top: 0;">
+               <img src="assets/home/persone.png" class="personebg" style="width:80vh;">
+               <img src="assets/home/galbiati.gif" class="uk-position-center uk-position-z-index" style="width:80vh; padding-left:8vh;">
+             </div>
+           </div>
+           <div class="uk-width-1-3@s mr-5 uk-position-z-index pt-5">
+             <h1 class="uk-text-left pl-5 violet">Union is strength!</h1>
+             <p class="uk-text-left pb-5 pl-5 violet"><span class="bold">Join forces</span> with your neighbors to fight the evil Pollutors. Unlock new gaming experiences by playing together. Create a neighborhood team and
+               <span class="bold">have fun together!</span> </p>
+           </div>
+           <div class="uk-width-1-1@s uk-position-z-index ">
+             <img src="assets/home/davanzale.png" class="" style="height:110%; width:110%;">
+           </div>
+         </div>
+       </div>
+     </section>
+     <section>
+       <div class="uk-cover-container">
+         <img class="uk-position-z-index uk-position-top responsive" src="assets/home/dividerg_down.svg" style="margin-top:-4px; width:110%">
+         <img class="uk-position-z-index uk-position-bottom responsive" src="assets/home/prato.svg" style="margin-top:-4px;">
+         <div class="uk-text-center" uk-grid>
+           <div class="uk-width-1-3@s uk-flex uk-flex-middle">
+             <div>
+               <h1 class="uk-text-left pl-5 pt-5 pr-3 violet">Surprise your neighbors with a gift.</h1>
+               <p class="uk-text-left pl-5 pr-5 violet">Visit our shop and buy a real plant for your friends or for yourself. Make your block the cutest.
+                 <a class="uk-flex uk-flex-left pt-3 pb-3" href="shop.html"><img src="assets/home/shop_button.svg" style="width: 18vh;"></img></a></p>
+             </div>
+           </div>
+           <div class="uk-width-expand@s uk-flex uk-flex-right" style=" z-index:0;flex-direction: row; align-items: flex-start; display:flex;">
+             <div style="position: relative; left: 0; top: 0;">
+               <img src="assets/home/portico.png" class="fioribg" style="width:350vh; margin-bottom:4px;">
+               <img src="assets/home/pacchi.gif" class="fiore" style="width:350vh;">
+             </div>
+           </div>
+         </div>
+       </div>
+
+   </main>
+   <footer style="background: #7CD444;">
+     <div class="container-fluid mr-3 ml-5">
+       <div class="row small">
+         <div class="uk-width-1-4@m pt-4 pb-3">
+           <p class="white">© Planty 2020. <br>
+             All rights Reserved.</p>
+         </div>
+         <div class="uk-width-1-4@m pt-4 pb-3">
+           <h4>Useful Links</h4>
+           <p class="white">
+             Terms & Conditions<br>
+             Privacy Policy<br>
+           </p>
+         </div>
+         <div class="uk-width-1-4@m pt-4 pb-3">
+           <h4>Contact Us</h4>
+           <p class="white">
+             <span uk-icon="mail"></span>&nbsp;&nbsp;hello@planty.fun <br>
+             <span uk-icon="receiver"></span>&nbsp;&nbsp;+39 020299374 <br>
+           </p>
+         </div>
+         <div class="uk-width-1-4@m pt-4 pb-3">
+           <h4>Download</h4>
+           <img class="uk-align-left" src="assets/storesv.svg" width="120vh"></img>
+         </div>
+       </div>
+     </div>
+   </footer>
+   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+
+ </body>

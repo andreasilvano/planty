@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "ANR-reg";
+  src: url(fonts/AvenirNextRoundedStd-Reg.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ANR-bold";
+  src: url(fonts/AvenirNextRoundedStd-Bold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ANR-demi";
+  src: url(fonts/AvenirNextRoundedStd-Demi.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Desktop */
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  font-family: ANR-reg;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 5vh;
+  font-family: ANR-demi;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-family: ANR-demi;
+}
+
+h4 {
+  font-family: ANR-bold;
+  font-size: 1.2em;
+  color: white;
+}
+p{
+  font-size: 1.2em;
+  font-family: ANR-reg;
+}
+
+.responsive {
+  width: 100% !important
+}
+
+.p {
+  font-family: ANR-reg;
+}
+
+.typography {
+  font-size: 1em !important;
+}
+
+.reg {
+  font-family: ANR-reg;
+}
+
+.demi {
+  font-family: ANR-demi;
+}
+
+.bold {
+  font-family: ANR-bold;
+}
+
+.nav-item {
+  color: white;
+}
+
+.uk-subnav-pill>.uk-active>a {
+  background-color: #614BDA;
+  color: #fff;
+  border-radius: 2.5vh;
+}
+
+.uk-subnav-pill>.uk-active>a {
+  color: #fff;
+  background-color: #614BDA;
+  border-radius: 2.5vh;
+}
+
+.uk-subnav>*>:first-child {
+  border-radius: 2vh;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+.uk-cover-container{
+  overflow: visible;
+}
+.robot{
+  width:45vh;
+  padding-bottom:6vh;
+}
+.palazzi {
+  position: relative;
+  left:-3vh;
+  bottom: 0vh;
+  overflow: hidden;
+  width:230vh;
+}
+
+.persone {
+  position: absolute;
+  left: -3vh;
+  bottom: -8vh;
+  overflow: hidden;
+  width:230vh;
+}
+.fioribg {
+  position: relative;
+  top: 0vh;
+  left: 0vh;
+
+}
+
+.fiore {
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+}
+.personebg {
+  position: relative;
+  top: 0vh;
+  left: 0vh;
+}
+
+
+.telefono {
+  position: relative;
+  top: 0vh;
+  left: -8vh;
+}
+
+.violet {
+  color: #33209F;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.green {
+  color: #7CD444;
+}
+
+.sale{
+  background: #FFC700 !important;
+}
+.premium{
+  background: #928E92 !important;
+}
+.basic {
+  background: #7CD444 !important;
+}
+.light-blue {
+  background: #7BDCFD;
+}
+.blue-gradient {
+  background: rgb(71, 207, 253);
+  background: linear-gradient(180deg, rgba(71, 207, 253, 1) -10%, rgba(255, 255, 255, 1) 140%);
+
+}
+.yellow-grandient{
+  background: rgb(255,238,58);
+  background: linear-gradient(180deg, rgba(255,238,58,1) 0%, rgba(255,199,0,1) 100%);
+}
+.green-gradient{
+  background: rgb(237,238,1);
+  background: linear-gradient(180deg, rgba(124,212,68,1) 0%, rgba(13,186,134,1) 120%);
+}
+.text-shadow {
+  text-shadow: 1px 1px 4px #000000;
+}
+.uk-card-title{
+  color: #33209F !important;
+  margin-top:-2vh;
+  margin-bottom:-.5vh;
+}
+.shop-card-description{
+  color:#33209F;
+  font-size:.9em;
+  margin-top:1.5vh;
+}
+.price{
+  font-family:ANR-bold;
+  color:#33209F;
+  line-height: .01;
+  font-size:1.5em;
+}
+.uk-badge{
+  padding: 1vh;
+}
+.cart-icon{
+  background-color:#7CD444;
+  color:white;
+}
+.video{
+  height:50vh;
+}
+.small{
+  font-size: .85em;
+}
+.medium{
+  font-size: 1em;
+}
+/* animations */
+
+/* iphone */
+@media only screen and (max-width: 414px) {
+  .video{
+    height:100%;
+  }
+  .robot{
+    width:30vh;
+    padding-bottom:1vh;
+  }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px) {
+  .video{
+    height:100%;
+  }
+  .robot{
+    width:30vh;
+    padding-bottom:1vh;
+  }
+}
