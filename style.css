@@ -46,11 +46,11 @@ h2 {
 
 h4 {
   font-family: ANR-bold;
-  font-size: 1.1em;
+  font-size: 1.35em;
   color: white;
 }
 p{
-  font-size: 1.15em;
+  font-size: 1.35em;
   font-family: ANR-reg;
 }
 
@@ -104,6 +104,10 @@ p{
 .uk-cover-container{
   overflow: visible;
 }
+.robot{
+  width:45vh;
+  padding-bottom:6vh;
+}
 .palazzi {
   position: relative;
   left:-3vh;
@@ -131,23 +135,12 @@ p{
   top: 0vh;
   left: 0vh;
 }
-
 .personebg {
   position: relative;
   top: 0vh;
   left: 0vh;
 }
 
-.persona {
-  position: absolute;
-  bottom: -10px;
-  left: 50px;
-}
-
-.robot {
-  position: absolute;
-  left: -5vh;
-}
 
 .telefono {
   position: relative;
@@ -221,10 +214,22 @@ p{
 .video{
   height:50vh;
 }
+.small{
+  font-size: 1.15em;
+}
+.medium{
+  font-size: 1em;
+}
+/* animations */
+
 /* iphone */
 @media only screen and (max-width: 414px) {
   .video{
     height:100%;
+  }
+  .robot{
+    width:30vh;
+    padding-bottom:1vh;
   }
 }
 
@@ -232,5 +237,9 @@ p{
 @media only screen and (max-width: 768px) {
   .video{
     height:100%;
+  }
+  .robot{
+    width:30vh;
+    padding-bottom:1vh;
   }
 }
