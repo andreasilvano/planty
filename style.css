@@ -147,7 +147,11 @@ p{
   top: 0vh;
   left: -8vh;
 }
-
+.pacchi{
+  position: absolute;
+  bottom: 8vw;
+  left: 18vw;
+}
 .violet {
   color: #33209F;
 }
@@ -230,6 +234,12 @@ p{
   .robot{
     width:30vh;
     padding-bottom:1vh;
+  }
+  .pacchi{
+    position: absolute;
+    bottom: 15vw;
+    left: 30vw;
+    width:35vw !important;
   }
 }
 
