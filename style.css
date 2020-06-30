@@ -232,13 +232,13 @@ p{
     height:100%;
   }
   .robot{
-    width:30vh;
+    width:30vw;
     padding-bottom:1vh;
   }
   .pacchi{
     position: absolute;
     bottom: 15vw;
-    left: 30vw;
+    left: 30vh;
     width:35vw !important;
   }
 }
